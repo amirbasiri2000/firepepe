@@ -1,5 +1,4 @@
 import HomeItems from "@/components/Home";
-import img from "../assets/images/banner.png";
 import Image from "next/image";
 import Hero from "@/components/Hero";
 import Story1 from "@/components/Story1";
