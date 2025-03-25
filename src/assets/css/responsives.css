@@ -1,0 +1,20 @@
+@media only screen and (max-width: 1024px){
+
+}
+@media only screen and (max-width: 700px){
+}
+@media only screen and (max-width: 570px){
+
+}
+@media only screen and (max-width: 480px){
+    main#main {
+        width: 100%;
+    }
+}
+@media screen and (max-device-width: 480px){
+    
+}
+@media screen and (max-device-width: 320px){
+   
+}
+

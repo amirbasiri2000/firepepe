@@ -1,0 +1,403 @@
+@font-face {
+    
+    font-family: HoboStd;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../HoboStd.otf');
+    src: url('../HoboStd.otf') format('embedded-opentype'), url('../HoboStd.otf') format('woff2'), url('../HoboStd.otf') format('woff'), url('../HoboStd.otf') format('truetype');
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+ins {
+    background: transparent !important;
+}
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 14px;
+    font-weight: normal;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: HoboStd;
+}
+
+article, aside, figure, footer, header, nav, section, details, summary {
+    display: block;
+    font-family: HoboStd;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: HoboStd;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+img, object, embed {
+    max-width: 100%;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+ul {
+    list-style: none;
+    font-family: HoboStd;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    transition: all 500ms ease 0s;
+    font-family: HoboStd;
+    text-decoration: none !important;
+}
+
+del {
+    text-decoration: line-through;
+    font-family: HoboStd;
+}
+
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted #000;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: HoboStd;
+}
+
+th {
+    font-weight: bold;
+    vertical-align: bottom;
+    font-family: HoboStd;
+}
+
+td {
+    font-weight: normal;
+    vertical-align: top;
+    font-family: HoboStd;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    font-family: HoboStd;
+    padding: 0;
+}
+
+input, select {
+    vertical-align: middle;
+    font-family: HoboStd;
+}
+button{
+    background: transparent;
+    outline: none !important;
+    border: none;
+}
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    white-space: pre-line;
+    word-wrap: break-word;
+    font-family: HoboStd;
+}
+
+input[type="radio"] {
+    vertical-align: text-bottom;
+    font-family: HoboStd;
+}
+
+input[type="checkbox"] {
+    vertical-align: bottom;
+    font-family: HoboStd;
+}
+
+.ie7 input[type="checkbox"] {
+    vertical-align: baseline;
+}
+
+.ie6 input {
+    vertical-align: text-bottom;
+}
+
+select, input, textarea {
+    font: 99% sans-serif;
+    font-family: HoboStd;
+}
+
+table {
+    font-size: inherit;
+    font-family: HoboStd;
+    font: 100%;
+}
+
+small {
+    font-size: 85%;
+    font-family: HoboStd;
+}
+
+strong {
+    font-weight: bold;
+    font-family: HoboStd;
+}
+
+td, td img {
+    vertical-align: top;
+    font-family: HoboStd;
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    font-family: HoboStd;
+    position: relative;
+}
+
+sup {
+    top: -0.5em;
+    font-family: HoboStd;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+pre, code, kbd, samp {
+    font-family: monospace, sans-serif;
+}
+
+.clickable, label, input[type=button], input[type=submit], input[type=file], button {
+    cursor: pointer;
+}
+
+button, input, select, textarea {
+    margin: 0;
+    font-family: HoboStd;
+}
+
+button, input[type=button] {
+    width: auto;
+    overflow: visible;
+    font-family: HoboStd;
+}
+
+.ie7 img {
+    -ms-interpolation-mode: bicubic;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+textarea {
+    max-width: 100%;
+    width: 100%;
+    border: 0 none;
+    padding: 0 10px;
+    background: #fff;
+    color: #666;
+    border: 1px solid #e5e5e5;
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+    -webkit-transition-property: color, background-color, border;
+    transition-property: color, background-color, border;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    outline: none !important;
+    vertical-align: top;
+}
+
+input {
+    max-width: 100%;
+    width: 100%;
+    border: 0 none;
+    padding: 0 10px;
+    color: #666;
+    border: 1px solid #e5e5e5;
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+    -webkit-transition-property: color, background-color, border;
+    transition-property: color, background-color, border;
+    height: 40px;
+    vertical-align: middle;
+    outline: none !important;
+    display: inline-block;
+}
+
+.container {
+    width: 1400px;
+    margin: auto;
+}
+fieldset{
+    padding: 0;
+    margin: 0;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+    :root{
+        --Pre-white: rgba(255, 255, 255, 1);
+        --Pre-0 : rgba(251, 116, 22, 1);
+        --Pre-1 : rgba(45, 115, 101, 1);
+        --Pre-2 : rgba(0, 0, 0, 1);
+        --Pre-3 : rgba(42, 42, 42, 1);
+        --Pre-4 : rgba(253, 238, 226, 1);
+        --Pre-5 : rgba(202, 226, 232, 1);
+        --Pre-6 : linear-gradient(270.02deg, #C9E2E9 0.02%, #FADCBE 99.98%);
+        --Pre-7 : 0px 0px 31.1px 0px rgba(51, 16, 16, 0.25);
+        --Pre-8 : rgba(250, 250, 250, 1);
+        --Pre-9 : rgba(189, 189, 189, 1);
+        --Pre-10 :rgba(150, 150, 150, 1);
+        /*new color code*/
+        --Pre-11 :rgba(217, 217, 217, 1);
+        --Pre-12 :rgba(0, 214, 71, 0.64);
+        --Pre-13 :rgba(255, 0, 0, 1);
+        --Pre-14 :rgba(0, 0, 0, 1);
+        --Pre-15 :rgba(237, 255, 243, 1);
+        --Pre-16 :rgba(0, 198, 152, 1);
+        --Pre-17 :rgba(255, 136, 0, 1);
+        --Pre-18 :rgba(49, 138, 2, 1);
+
+    }
+    :root {
+        --background: #ffffff;
+        --foreground: #171717;
+      }
+      
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --background: #0a0a0a;
+          --foreground: #ededed;
+        }
+      }
+      
+      body {
+        color: var(--foreground);
+        font-family: HoboStd;
+       /* background: linear-gradient(135deg, #0f1729 0%, #0a0f1d 100%);*/
+      }
+      
+    @keyframes shine {
+    to {
+        background-position-x: -200%
+    }
+}
+@keyframes shine {
+    to {
+      background-position-x: -200%;
+    }
+  }
+  @keyframes scale-display {
+	0% {
+		opacity: 0;
+		transform: scale(0);
+    -webkit-transform: scale(0);
+	}
+
+	100% {
+		opacity: 1;
+		transform: scale(1);
+    -webkit-transform: scale(1);
+	}
+}
+@keyframes scale-display--reversed {
+	0% {
+		display: inline-flex;
+		opacity: 1;
+		transform: scale(1);
+		-webkit-transform: scale(1);
+	}
+	99% {
+		display: inline-flex;
+		opacity: 0;
+		transform: scale(0);
+		-webkit-transform: scale(0);
+	}
+	100% {
+		display: none;
+		opacity: 0;
+		transform: scale(0);
+		-webkit-transform: scale(0);
+	}
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+  
+    100% {
+      transform: scale(1.1);
+    }
+  }
+
+@keyframes slide-down {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(-10%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+    }
+  }
+  
+  @keyframes slide-down {
+    0% {
+      opacity: 0;
+      -moz-transform: translateY(-10%);
+    }
+    100% {
+      opacity: 1;
+      -moz-transform: translateY(0);
+    }
+  }
+  
